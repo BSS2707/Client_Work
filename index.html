@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PRATHMESHFILMS — Video Editor & Aspiring Videographer</title>
+  <meta name="description"
+    content="Portfolio of Prathmesh, a video editor and aspiring videographer creating engaging, well-paced videos for social media creators, brands and digital storytellers.">
+  <meta property="og:title" content="PRATHMESHFILMS — Every Frame Tells a Story">
+  <meta property="og:description" content="Video editing for Instagram Reels, YouTube Shorts and long-form content.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/portrait.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#080B09">
+  <link rel="icon"
+    href="https://cdn.phototourl.com/member/2026-10-13-44db7b14-d6b8-4567-891e-c6e5a0fff0d3.png"> 
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ========================================================================
+     Loading Screen
+     ======================================================================== -->
+  <div class="loader-screen" id="loader" aria-label="Loading page">
+    <div class="loader-box">
+      <div class="loader-logo">PRATHMESH<span>FILMS</span></div>
+      <div class="loader-line" aria-hidden="true">
+        <div class="loader-bar"></div>
+      </div>
+      <p class="loader-text">Loading portfolio &amp; reels…</p>
+    </div>
+  </div>
+
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <!-- ========================================================================
+     Navigation
+     ======================================================================== -->
+  <header class="nav" id="nav">
+    <a class="logo" href="#home">PRATHMESH<span>FILMS</span></a>
+
+    <div class="nav-actions-right">
+      <nav id="menu" class="menu" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#toolkit">Tools</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-outline btn-sm" href="#contact">Hire Me</a>
+      </nav>
+
+      <!-- Theme Toggle (Dark / Light) -->
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme" title="Toggle theme">
+        <span class="sun" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </span>
+        <span class="moon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </span>
+      </button>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+        <i></i><i></i><i></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+     Main Content
+     ======================================================================== -->
+  <main id="main">
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Video Editor &amp; Aspiring Videographer</p>
+        <h1>Every Frame Tells a Story.</h1>
+        <p class="lead">Creating engaging, well-paced videos for social media creators, brands, and digital
+          storytellers. From short-form content to long-form videos, I bring ideas to life through thoughtful editing.
+        </p>
+        <div class="actions">
+          <a class="btn btn-gold" href="#portfolio">Explore My Work</a>
+          <a class="btn btn-outline" href="#contact">Let's Work Together</a>
+        </div>
+        <p class="formats">Instagram Reels / YouTube Shorts / Long-Form Content</p>
+      </div>
+      <figure class="hero-visual">
+        <img src="assets/portrait.jpg" alt="Cinematic portrait of Prathmesh" fetchpriority="high">
+        <span class="tc">REC &nbsp;00:00:27</span>
+      </figure>
+      <div class="strip" aria-hidden="true"></div>
+    </section>
+
+    <!-- Marquee Strip -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Instagram Reels</span><i></i>
+        <span>YouTube Shorts</span><i></i>
+        <span>Long-Form Content</span><i></i>
+        <span>Captions &amp; Clean Cuts</span><i></i>
+        <span>Music Sync</span><i></i>
+        <span>Instagram Reels</span><i></i>
+        <span>YouTube Shorts</span><i></i>
+        <span>Long-Form Content</span><i></i>
+        <span>Captions &amp; Clean Cuts</span><i></i>
+        <span>Music Sync</span><i></i>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="wrap split">
+        <div class="reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Hi, I'm Prathmesh.</h2>
+          <p class="body">I'm a video editor and aspiring videographer interested in creating engaging, well-paced
+            videos for social media creators. I enjoy working on short-form content and adapting my editing style to
+            suit each project's goals, rhythm, and audience.</p>
+        </div>
+        <figure class="player reveal" id="player">
+          <video id="clip" preload="metadata" playsinline controls poster="assets/poster.jpg"
+            aria-label="Sample video clip">
+            <source src="assets/clip.mp4" type="video/mp4">
+          </video>
+          <figcaption>Press play to watch sample cut</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section alt" id="services">
+      <div class="wrap">
+        <div class="head reveal">
+          <p class="eyebrow">What I Do</p>
+          <h2>Editing That Brings Ideas to Life.</h2>
+        </div>
+        <div class="svcs">
+          <article class="svc reveal">
+            <span class="ico">
+              <svg viewBox="0 0 24 24">
+                <rect x="7" y="2" width="10" height="20" rx="2" />
+                <path d="M11 9l4 3-4 3z" />
+              </svg>
+            </span>
+            <h3>Instagram Reels &amp; YouTube Shorts</h3>
+            <p>Engaging vertical videos designed for social platforms, with thoughtful pacing and strong visual
+              storytelling.</p>
+          </article>
+
+          <article class="svc reveal">
+            <span class="ico">
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="5" width="20" height="14" rx="2" />
+                <path d="M10 9.5l5 2.5-5 2.5z" />
+              </svg>
+            </span>
+            <h3>YouTube Long-Form Content</h3>
+            <p>Well-structured, cleanly edited videos for creators, channels, tutorials, and longer storytelling
+              formats.</p>
+          </article>
+
+          <article class="svc reveal">
+            <span class="ico">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 5.5a3 3 0 100 5 3 3 0 000-5zM6 13.5a3 3 0 100 5 3 3 0 000-5zM8 8l12 10M8 16L20 6" />
+              </svg>
+            </span>
+            <h3>Captions &amp; Clean Cuts</h3>
+            <p>Readable captions, seamless cuts, refined transitions, and a smooth viewing experience.</p>
+          </article>
+
+          <article class="svc reveal">
+            <span class="ico">
+              <svg viewBox="0 0 24 24">
+                <path d="M9 18V5l11-2v13" />
+                <circle cx="6" cy="18" r="3" />
+                <circle cx="17" cy="16" r="3" />
+              </svg>
+            </span>
+            <h3>Music Synchronization &amp; Audio</h3>
+            <p>Music synchronization, audio balancing, and sound choices that complement the content.</p>
+          </article>
+
+          <article class="svc reveal">
+            <span class="ico">
+              <svg viewBox="0 0 24 24">
+                <path d="M6 12h4M8 10v4M15 11h.01M18 13h.01" />
+                <path
+                  d="M17.3 5H6.7a4 4 0 00-3.9 3.1l-1 5.2A3 3 0 006.7 16l1.6-2h7.4l1.6 2a3 3 0 004.9-2.7l-1-5.2A4 4 0 0017.3 5z" />
+              </svg>
+            </span>
+            <h3>Gaming &amp; Creator Content</h3>
+            <p>Dynamic editing for gaming videos, creator content, highlights, and entertainment.</p>
+          </article>
+
+          <article class="svc reveal">
+            <span class="ico">
+              <svg viewBox="0 0 24 24">
+                <path d="M12 21s-8-5-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 10c0 6-8 11-8 11z" />
+              </svg>
+            </span>
+            <h3>Lifestyle, Fitness &amp; Promotions</h3>
+            <p>Visually engaging edits for lifestyle content, fitness videos, and promotional projects.</p>
+          </article>
+        </div>
+        <p class="center reveal">
+          <a class="btn btn-outline" href="#contact">Discuss Your Project</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section" id="portfolio">
+      <div class="wrap">
+        <div class="head reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>A Few Stories I've Edited.</h2>
+          <p class="body">Explore selected video projects showcasing different styles, pacing, and creative approaches.
+          </p>
+        </div>
+        <div class="grid reels" id="reels"></div>
+      </div>
+    </section>
+
+    <!-- Toolkit Section (With the 4 Real Software Logos) -->
+    <section class="section alt" id="toolkit">
+      <div class="wrap">
+        <div class="head reveal">
+          <p class="eyebrow">My Toolkit</p>
+          <h2>Tools Behind the Edit.</h2>
+        </div>
+        <ul class="tools reveal">
+          <!-- 1. CapCut -->
+          <li>
+            <div class="tool-img-wrap">
+              <img src="assets/capcut.png" alt="CapCut logo" width="56" height="56" loading="lazy"
+                onerror="this.onerror=null;this.src='https://imgs.search.brave.com/Rt30UTioxS-K34fEZ5rIXraAShu10emv2FndPA30yeI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvcHJl/dmlld3MvMDQ4Lzc1/OS8zMjUvbm9uXzJ4/L2NhcGN1dC10cmFu/c3BhcmVudC1pY29u/LWZyZWUtcG5nLnBu/Zw';">
+            </div>
+            <span>CapCut</span>
+            <small class="tool-role">Reels &amp; Short-Form</small>
+          </li>
+
+          <!-- 2. Adobe Premiere Pro -->
+          <li>
+            <div class="tool-img-wrap">
+              <img src="assets/premiere.png" alt="Adobe Premiere Pro logo" width="56" height="56" loading="lazy"
+                onerror="this.onerror=null;this.src='https://imgs.search.brave.com/PXpKL5x1aT9U8NAsY3y7pBvTOy3WZkciZ8S-fd7AmpU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE5/LzEwL2Fkb2JlLXBy/ZW1pZXJlLXByby1s/b2dvLTAtMS5wbmc';">
+            </div>
+            <span>Adobe Premiere Pro</span>
+            <small class="tool-role">Timeline Pacing &amp; Sync</small>
+          </li>
+
+          <!-- 3. Adobe After Effects -->
+          <li>
+            <div class="tool-img-wrap">
+              <img src="assets/aftereffects.png" alt="Adobe After Effects logo" width="56" height="56" loading="lazy"
+                onerror="this.onerror=null;this.src='https://imgs.search.brave.com/0Mc013KY5yf1IbIXxHmf16l6_BrKT9cqx92km3ccDuc/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9sb2dv/ZG93bmxvYWQub3Jn/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE3/LzA0L2Fkb2JlLWFm/dGVyLWVmZmVjdHMt/bG9nby0wLnBuZw';">
+            </div>
+            <span>Adobe After Effects</span>
+            <small class="tool-role">Motion &amp; Visual Titles</small>
+          </li>
+
+          <!-- 4. DaVinci Resolve -->
+          <li>
+            <div class="tool-img-wrap">
+              <img src="assets/davinci.png" alt="DaVinci Resolve logo" width="56" height="56" loading="lazy"
+                onerror="this.onerror=null;this.src='https://imgs.search.brave.com/TO1O-YWcrFl_M0VYDRvHC4UGwVbnNVHamNRAmWltjJM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy82/NDI0YTc4NzU2ZGI1/ZmI5MDhkY2E4NmMu/cG5n';">
+            </div>
+            <span>DaVinci Resolve</span>
+            <small class="tool-role">Color Grading &amp; Finish</small>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section" id="process">
+      <div class="wrap">
+        <div class="head reveal">
+          <p class="eyebrow">How I Work</p>
+          <h2>From First Brief to Final Cut.</h2>
+        </div>
+        <ol class="steps">
+          <li class="reveal">
+            <b>01</b>
+            <h3>Discuss</h3>
+            <p>Understand the client's vision, target audience, reference style, deliverables, and deadline.</p>
+          </li>
+          <li class="reveal">
+            <b>02</b>
+            <h3>Edit</h3>
+            <p>Create an edit with suitable pacing, transitions, captions, and music synchronization.</p>
+          </li>
+          <li class="reveal">
+            <b>03</b>
+            <h3>Review</h3>
+            <p>Collect constructive feedback and make the revisions agreed upon before starting.</p>
+          </li>
+          <li class="reveal">
+            <b>04</b>
+            <h3>Deliver</h3>
+            <p>Provide the final video in the agreed format, optimized resolution, and timeline.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="quote" id="philosophy">
+      <div class="wrap narrow reveal">
+        <h2>Let's Create Something Worth Watching.</h2>
+        <p>I believe good collaboration starts with clear communication. I aim to understand each client's vision,
+          target audience, reference style, and deadline before starting a project. I welcome constructive feedback and
+          believe in agreeing on deliverables, revisions, timelines, and payment in advance.</p>
+        <p>I'm excited to collaborate with creators and help bring their ideas to life through video.</p>
+        <a class="btn btn-gold" href="#contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="wrap narrow center-text">
+        <p class="eyebrow reveal">Let's Work Together</p>
+        <h2 class="reveal">Have a Project in Mind?</h2>
+        <p class="body reveal" style="margin-inline:auto">Tell me about your idea, the style you're looking for, and how
+          we can work together.</p>
+        <div class="reach">
+          <a class="row reveal" href="https://ig.me/m/Prathmeshfilmss" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.2" cy="6.8" r=".6" />
+            </svg>
+            <span><small>DM on Instagram</small>@Prathmeshfilmss</span>
+            <em>Open</em>
+          </a>
+          <a class="row reveal" href="mailto:dhumalprathmeshrakesh@gmail.com">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path d="M3 7l9 6 9-6" />
+            </svg>
+            <span><small>Email me</small>dhumalprathmeshrakesh@gmail.com</span>
+            <em>Write</em>
+          </a>
+          <a class="row reveal"
+            href="https://api.whatsapp.com/send?phone=919537014407&amp;text=Hi%20Prathmesh,%20I'd%20like%20to%20discuss%20a%20video%20editing%20project!"
+            target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 21l1.6-4.8A8.5 8.5 0 1112 20.5a8.5 8.5 0 01-4-1z" />
+              <path d="M9 8.5c0 3 2.5 6 6 6.5l1.2-1.4-2-1-.8.8c-1-.4-2-1.4-2.4-2.4l.8-.8-1-2z" />
+            </svg>
+            <span><small>Open WhatsApp</small>+91 9537014407</span>
+            <em>Chat</em>
+          </a>
+          <a class="row reveal" href="tel:+919537014407">
+            <svg viewBox="0 0 24 24">
+              <path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z" />
+            </svg>
+            <span><small>Call</small>+91 9537014407</span>
+            <em>Call</em>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+     Footer
+     ======================================================================== -->
+  <footer class="footer">
+    <div class="wrap foot">
+      <div>
+        <a class="logo" href="#home">PRATHMESH<span>FILMS</span></a>
+        <p class="tag">Thoughtful edits. Meaningful stories.</p>
+      </div>
+      <nav aria-label="Footer Navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#toolkit">Tools</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <nav aria-label="Social Channels">
+        <a href="https://www.instagram.com/Prathmeshfilmss/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://api.whatsapp.com/send?phone=919537014407" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="mailto:dhumalprathmeshrakesh@gmail.com">Email</a>
+      </nav>
+    </div>
+    <p class="copy">&copy; <span id="year"></span> PRATHMESHFILMS. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
